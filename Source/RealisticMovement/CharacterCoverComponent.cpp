@@ -3,32 +3,63 @@
 
 #include "CharacterCoverComponent.h"
 
-// Sets default values for this component's properties
+#include "GameFramework/Character.h"
+
 UCharacterCoverComponent::UCharacterCoverComponent()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
+	bWantsInitializeComponent = true;
 }
 
-
-// Called when the game starts
-void UCharacterCoverComponent::BeginPlay()
+void UCharacterCoverComponent::InitializeComponent()
 {
-	Super::BeginPlay();
-
-	// ...
-	
+	Super::InitializeComponent();
+	Character = Cast<ACharacter>(GetOwner());
 }
 
-
-// Called every frame
 void UCharacterCoverComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	ICoverable* PotentialCover = GetClosestCoverable();
+
+	if(ClosestCoverable.GetInterface() != PotentialCover)
+	{
+		ClosestCoverable.SetInterface(PotentialCover);
+		
+		if(PotentialCover != nullptr)
+			OnClosestCoverFound.Broadcast(PotentialCover);
+		else
+			OnClosestCoverLost.Broadcast();
+	} 
+}
+
+bool UCharacterCoverComponent::TryCover_Implementation()
+{
+	ICoverable* PotentialCover = GetClosestCoverable();
+
+	if(PotentialCover == nullptr)
+		return false;
+	
+	PotentialCover->EnterCover(Character);
+	OnCoverEnter.Broadcast(PotentialCover);
+	ActiveCoverable.SetInterface(PotentialCover);
+	return true;
+}
+
+void UCharacterCoverComponent::UpdateCover_Implementation(float Direction)
+{
+	if(ICoverable* ActiveCover = ActiveCoverable.GetInterface())
+		ActiveCover->UpdateCharacterPosition(Character, Direction);
+}
+
+void UCharacterCoverComponent::ExitCover_Implementation()
+{
+	if(ActiveCoverable.GetInterface() == nullptr)
+		return;
+
+	ActiveCoverable.GetInterface()->ExitCover(Character);
+	OnCoverExit.Broadcast();
+	ActiveCoverable.SetInterface(nullptr);
 }
 

@@ -7,7 +7,7 @@
 #include "Coverable.generated.h"
 
 // This class does not need to be modified.
-UINTERFACE(MinimalAPI)
+UINTERFACE(MinimalAPI,Blueprintable)
 class UCoverable : public UInterface
 {
 	GENERATED_BODY()
