@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\projects\\unreal\\realisticmovement\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.cpp",
+        "Source": "d:\\projects\\unreal\\realisticthirdpersoncharacter\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "d:\\projects\\unreal\\realisticmovement\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\ridershaderinfo\\definitions.h",
-            "d:\\projects\\unreal\\realisticmovement\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.h",
+            "d:\\projects\\unreal\\realisticthirdpersoncharacter\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\ridershaderinfo\\definitions.h",
+            "d:\\projects\\unreal\\realisticthirdpersoncharacter\\plugins\\developer\\riderlink\\source\\ridershaderinfo\\ridershaderinfo.h",
             "d:\\program files\\unreal\\ue_5.1\\engine\\source\\runtime\\core\\public\\modules\\moduleinterface.h",
             "d:\\program files\\unreal\\ue_5.1\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "d:\\program files\\unreal\\ue_5.1\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
