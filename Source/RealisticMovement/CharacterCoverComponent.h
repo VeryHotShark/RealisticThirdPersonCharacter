@@ -7,7 +7,7 @@
 #include "Components/ActorComponent.h"
 #include "CharacterCoverComponent.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnCoverFound, ICoverable*, Cover);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnCoverFound, TScriptInterface<ICoverable>, Cover);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnCoverLost);
 
 UCLASS( ClassGroup=(Custom), Blueprintable, meta=(BlueprintSpawnableComponent) )
@@ -30,7 +30,7 @@ protected:
 	TScriptInterface<ICoverable> ActiveCoverable; ;
 	
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
-	ICoverable* GetClosestCoverable();
+	TScriptInterface<ICoverable> FindClosestCoverable();
 
 public:
 	virtual void InitializeComponent() override;

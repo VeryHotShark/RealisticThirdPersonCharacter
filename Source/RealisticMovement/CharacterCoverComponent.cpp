@@ -21,14 +21,14 @@ void UCharacterCoverComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	ICoverable* PotentialCover = GetClosestCoverable();
+	TScriptInterface<ICoverable> PotentialCover = FindClosestCoverable();
 
-	if(ClosestCoverable.GetInterface() != PotentialCover)
+	if(ClosestCoverable != PotentialCover)
 	{
-		ClosestCoverable.SetInterface(PotentialCover);
+		ClosestCoverable = PotentialCover;
 		
 		if(PotentialCover != nullptr)
-			OnClosestCoverFound.Broadcast(PotentialCover);
+			OnClosestCoverFound.Broadcast(ClosestCoverable);
 		else
 			OnClosestCoverLost.Broadcast();
 	} 
@@ -36,14 +36,14 @@ void UCharacterCoverComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 
 bool UCharacterCoverComponent::TryCover_Implementation()
 {
-	ICoverable* PotentialCover = GetClosestCoverable();
+	TScriptInterface<ICoverable> PotentialCover = FindClosestCoverable();
 
 	if(PotentialCover == nullptr)
 		return false;
 	
 	PotentialCover->EnterCover(Character);
-	OnCoverEnter.Broadcast(PotentialCover);
-	ActiveCoverable.SetInterface(PotentialCover);
+	ActiveCoverable = PotentialCover;
+	OnCoverEnter.Broadcast(ActiveCoverable);
 	return true;
 }
 
