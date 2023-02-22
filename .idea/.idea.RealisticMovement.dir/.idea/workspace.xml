@@ -7,12 +7,7 @@
     <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Contraptions/BP_Cover.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Contraptions/BP_Cover.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Ambient_Dust.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Particles/P_Ambient_Dust.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +109,7 @@
       <workItem from="1676990925231" duration="901000" />
       <workItem from="1676993796162" duration="71000" />
       <workItem from="1677026085990" duration="9000" />
-      <workItem from="1677026294689" duration="1183000" />
+      <workItem from="1677026294689" duration="2834000" />
     </task>
     <servers />
   </component>
