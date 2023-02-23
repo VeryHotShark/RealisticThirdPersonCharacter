@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "Cover.h"
-#include "Coverable.h"
 #include "Components/ActorComponent.h"
 #include "CharacterCoverComponent.generated.h"
 

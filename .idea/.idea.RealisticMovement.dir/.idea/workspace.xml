@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Contraptions/BP_Cover.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Contraptions/BP_Cover.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/Coverable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/Coverable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/Coverable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/Coverable.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +20,6 @@
     <setting file="file://$PROJECT_DIR$/../../../Program Files/Unreal/UE_5.1/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Program Files/Unreal/UE_5.1/Engine/Source/Runtime/Engine/Private/Components/ActorComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/RealisticMovement/Coverable.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/RealisticMovement/Coverable.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/RealisticMovement/RealisticMovementCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -133,7 +121,7 @@
       <workItem from="1677133709338" duration="517000" />
       <workItem from="1677134289745" duration="393000" />
       <workItem from="1677134707683" duration="242000" />
-      <workItem from="1677145467229" duration="2918000" />
+      <workItem from="1677145467229" duration="3297000" />
     </task>
     <servers />
   </component>
