@@ -41,7 +41,6 @@ bool UCharacterCoverComponent::TryCover_Implementation()
 	if(PotentialCover == nullptr)
 		return false;
 
-	// PotentialCover->EnterCover(Character);
 	ICoverable::Execute_EnterCover(PotentialCover.GetObject(), Character);
 	ActiveCoverable = PotentialCover;
 	OnCoverEnter.Broadcast(ActiveCoverable);
@@ -52,16 +51,14 @@ void UCharacterCoverComponent::UpdateCover_Implementation(float Direction)
 {
 	if(ActiveCoverable != nullptr)
 		ICoverable::Execute_UpdateCharacterPosition(ActiveCoverable.GetObject(), Character, Direction);
-		// ActiveCover->UpdateCharacterPosition(Character, Direction);
 }
 
 void UCharacterCoverComponent::ExitCover_Implementation()
 {
-	if(ActiveCoverable != nullptr)
+	if(ActiveCoverable == nullptr)
 		return;
 
 	ICoverable::Execute_ExitCover(ActiveCoverable.GetObject(), Character);
-	// ActiveCoverable.GetInterface()->ExitCover(Character);
 	OnCoverExit.Broadcast();
 	ActiveCoverable = nullptr;
 }

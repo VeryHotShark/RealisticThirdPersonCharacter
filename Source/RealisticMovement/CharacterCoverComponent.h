@@ -58,8 +58,8 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void ExitCover();
 	
-	UFUNCTION(BlueprintCallable)
-	bool IsDuringCover() { return  ActiveCoverable.GetInterface() != nullptr; }
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	bool IsDuringCover() { return  ActiveCoverable != nullptr; }
 	
 	FORCEINLINE ICoverable* GetCurrentCoverable() const { return ClosestCoverable.GetInterface(); }
 };
