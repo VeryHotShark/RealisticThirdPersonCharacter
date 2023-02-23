@@ -21,14 +21,14 @@ void UCharacterCoverComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	TScriptInterface<ICoverable> PotentialCover = FindClosestCoverable();
+	ACover* PotentialCover = FindClosestCover();
 
-	if(ClosestCoverable != PotentialCover)
+	if(ClosestCover != PotentialCover)
 	{
-		ClosestCoverable = PotentialCover;
+		ClosestCover = PotentialCover;
 		
 		if(PotentialCover != nullptr)
-			OnClosestCoverFound.Broadcast(ClosestCoverable);
+			OnClosestCoverFound.Broadcast(ClosestCover);
 		else
 			OnClosestCoverLost.Broadcast();
 	} 
@@ -36,30 +36,30 @@ void UCharacterCoverComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 
 bool UCharacterCoverComponent::TryCover_Implementation()
 {
-	TScriptInterface<ICoverable> PotentialCover = FindClosestCoverable();
+	ACover* PotentialCover = FindClosestCover();
 
 	if(PotentialCover == nullptr)
 		return false;
 
-	ICoverable::Execute_EnterCover(PotentialCover.GetObject(), Character);
-	ActiveCoverable = PotentialCover;
-	OnCoverEnter.Broadcast(ActiveCoverable);
+	PotentialCover->EnterCover(Character);
+	ActiveCover = PotentialCover;
+	OnCoverEnter.Broadcast(ActiveCover);
 	return true;
 }
 
-void UCharacterCoverComponent::UpdateCover_Implementation(float Direction)
+void UCharacterCoverComponent::UpdateCover_Implementation(FVector MoveInput)
 {
-	if(ActiveCoverable != nullptr)
-		ICoverable::Execute_UpdateCharacterPosition(ActiveCoverable.GetObject(), Character, Direction);
+	// if(ActiveCover != nullptr)
+		// ActiveCover->UpdateCharacterPosition(Character,MoveInput.X);
 }
 
 void UCharacterCoverComponent::ExitCover_Implementation()
 {
-	if(ActiveCoverable == nullptr)
+	if(ActiveCover == nullptr)
 		return;
 
-	ICoverable::Execute_ExitCover(ActiveCoverable.GetObject(), Character);
+	ActiveCover->ExitCover(Character);
 	OnCoverExit.Broadcast();
-	ActiveCoverable = nullptr;
+	ActiveCover = nullptr;
 }
 

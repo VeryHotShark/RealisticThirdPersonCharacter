@@ -3,11 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Cover.h"
 #include "Coverable.h"
 #include "Components/ActorComponent.h"
 #include "CharacterCoverComponent.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnCoverFound, TScriptInterface<ICoverable>, Cover);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnCoverFound, ACover*, Cover);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnCoverLost);
 
 UCLASS( ClassGroup=(Custom), Blueprintable, meta=(BlueprintSpawnableComponent) )
@@ -24,13 +25,13 @@ protected:
 	ACharacter* Character;
 	
 	UPROPERTY(BlueprintReadWrite)
-	TScriptInterface<ICoverable> ClosestCoverable;
+	ACover* ClosestCover;
 
 	UPROPERTY(BlueprintReadWrite)
-	TScriptInterface<ICoverable> ActiveCoverable; ;
+	ACover* ActiveCover; ;
 	
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
-	TScriptInterface<ICoverable> FindClosestCoverable();
+	ACover* FindClosestCover();
 
 public:
 	virtual void InitializeComponent() override;
@@ -53,13 +54,13 @@ public:
 	bool TryCover();
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	void UpdateCover(float Direction);
+	void UpdateCover(FVector MoveInput);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void ExitCover();
 	
 	UFUNCTION(BlueprintCallable, BlueprintPure)
-	bool IsDuringCover() { return  ActiveCoverable != nullptr; }
+	bool IsDuringCover() { return  ActiveCover != nullptr; }
 	
-	FORCEINLINE ICoverable* GetCurrentCoverable() const { return ClosestCoverable.GetInterface(); }
+	FORCEINLINE ACover* GetCurrentCover() const { return ActiveCover; }
 };
