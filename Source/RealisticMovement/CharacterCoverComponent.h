@@ -53,7 +53,7 @@ public:
 	bool TryCover();
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	void UpdateCover(FVector MoveInput);
+	void UpdateCover(float MoveDirection);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void ExitCover();

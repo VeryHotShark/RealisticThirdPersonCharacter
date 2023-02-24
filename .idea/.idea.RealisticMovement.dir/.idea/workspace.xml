@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/Coverable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/Coverable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +126,8 @@
       <workItem from="1677133709338" duration="517000" />
       <workItem from="1677134289745" duration="393000" />
       <workItem from="1677134707683" duration="242000" />
-      <workItem from="1677145467229" duration="3297000" />
+      <workItem from="1677145467229" duration="3400000" />
+      <workItem from="1677239755028" duration="689000" />
     </task>
     <servers />
   </component>

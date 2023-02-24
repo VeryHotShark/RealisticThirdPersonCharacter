@@ -47,10 +47,10 @@ bool UCharacterCoverComponent::TryCover_Implementation()
 	return true;
 }
 
-void UCharacterCoverComponent::UpdateCover_Implementation(FVector MoveInput)
+void UCharacterCoverComponent::UpdateCover_Implementation(float MoveDirection)
 {
-	// if(ActiveCover != nullptr)
-		// ActiveCover->UpdateCharacterPosition(Character,MoveInput.X);
+	if(ActiveCover != nullptr)
+		ActiveCover->UpdateCharacterPosition(Character,MoveDirection);
 }
 
 void UCharacterCoverComponent::ExitCover_Implementation()
