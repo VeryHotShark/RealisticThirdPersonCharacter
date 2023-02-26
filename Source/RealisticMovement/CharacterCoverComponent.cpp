@@ -55,7 +55,7 @@ bool UCharacterCoverComponent::TryCover_Implementation()
 void UCharacterCoverComponent::UpdateCover_Implementation(float MoveDirection)
 {
 	if(ActiveCover != nullptr)
-		ActiveCover->UpdateCharacterPosition(Character,MoveDirection);
+		ActiveCover->UpdateCharacterPosition(Character, this ,MoveDirection);
 }
 
 void UCharacterCoverComponent::ExitCover_Implementation()

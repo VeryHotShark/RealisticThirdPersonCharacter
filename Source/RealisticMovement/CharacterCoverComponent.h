@@ -63,6 +63,9 @@ public:
 	
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void SetCoverTransitionState(bool State);
+
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+	void OnCoverEndReached(float Direction);
 	
 	UFUNCTION(BlueprintCallable, BlueprintPure)
 	bool IsDuringCover() { return  ActiveCover != nullptr || IsDuringCoverTransition(); }

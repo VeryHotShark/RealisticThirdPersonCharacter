@@ -36,5 +36,5 @@ public:
 	void ExitCover(ACharacter* Character, UCharacterCoverComponent* CoverComponent);
 
 	UFUNCTION(BlueprintImplementableEvent,BlueprintCallable)
-	void UpdateCharacterPosition(ACharacter* Character, float MoveDirection);
+	void UpdateCharacterPosition(ACharacter* Character,  UCharacterCoverComponent* CoverComponent, float MoveDirection);
 };
