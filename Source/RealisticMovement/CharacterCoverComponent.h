@@ -20,6 +20,9 @@ public:
 	UCharacterCoverComponent();
 
 protected:
+	UPROPERTY(BlueprintReadWrite)
+	bool bIsDuringTransition;
+	
 	UPROPERTY(BlueprintReadOnly)
 	ACharacter* Character;
 	
@@ -58,8 +61,14 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void ExitCover();
 	
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void SetCoverTransitionState(bool State);
+	
 	UFUNCTION(BlueprintCallable, BlueprintPure)
-	bool IsDuringCover() { return  ActiveCover != nullptr; }
+	bool IsDuringCover() { return  ActiveCover != nullptr || IsDuringCoverTransition(); }
+
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	bool IsDuringCoverTransition() { return  bIsDuringTransition; }
 	
 	FORCEINLINE ACover* GetCurrentCover() const { return ActiveCover; }
 };

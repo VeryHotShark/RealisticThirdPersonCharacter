@@ -34,6 +34,11 @@ void UCharacterCoverComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 	} 
 }
 
+void UCharacterCoverComponent::SetCoverTransitionState_Implementation(bool State)
+{
+	bIsDuringTransition = State;
+}
+
 bool UCharacterCoverComponent::TryCover_Implementation()
 {
 	ACover* PotentialCover = FindClosestCover();
@@ -41,7 +46,7 @@ bool UCharacterCoverComponent::TryCover_Implementation()
 	if(PotentialCover == nullptr)
 		return false;
 
-	PotentialCover->EnterCover(Character);
+	PotentialCover->EnterCover(Character, this);
 	ActiveCover = PotentialCover;
 	OnCoverEnter.Broadcast(ActiveCover);
 	return true;
@@ -58,7 +63,7 @@ void UCharacterCoverComponent::ExitCover_Implementation()
 	if(ActiveCover == nullptr)
 		return;
 
-	ActiveCover->ExitCover(Character);
+	ActiveCover->ExitCover(Character, this);
 	OnCoverExit.Broadcast();
 	ActiveCover = nullptr;
 }

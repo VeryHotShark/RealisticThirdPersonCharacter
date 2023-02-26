@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Cover.generated.h"
 
+class UCharacterCoverComponent;
 class USplineComponent;
 
 UCLASS()
@@ -25,18 +26,14 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-
-	UFUNCTION(BlueprintImplementableEvent,BlueprintCallable)
-	FVector GetClosestCoverPoint(ACharacter* Character);
-
 	UFUNCTION(BlueprintImplementableEvent, BlueprintPure,BlueprintCallable)
 	float GetClosestSplineDistanceAtLocation(FVector Location);
 
 	UFUNCTION(BlueprintImplementableEvent,BlueprintCallable)
-	void EnterCover(ACharacter* Character);
+	void EnterCover(ACharacter* Character, UCharacterCoverComponent* CoverComponent);
 
 	UFUNCTION(BlueprintImplementableEvent,BlueprintCallable)
-	void ExitCover(ACharacter* Character);
+	void ExitCover(ACharacter* Character, UCharacterCoverComponent* CoverComponent);
 
 	UFUNCTION(BlueprintImplementableEvent,BlueprintCallable)
 	void UpdateCharacterPosition(ACharacter* Character, float MoveDirection);

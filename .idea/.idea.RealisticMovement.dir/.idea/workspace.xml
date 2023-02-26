@@ -5,13 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_CoverCrouch_Enter.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_CoverCrouch_Exit.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_Cover_Enter.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_Cover_Exit.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/A_CoverCrouch_Enter.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/A_CoverCrouch_Turn_LToR.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/A_CoverCrouch_Turn_RToL.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Contraptions/BP_Cover.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Contraptions/BP_Cover.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/ABP_Katiusza.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/ABP_Katiusza.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/A_CoverCoruch_Enter.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/A_CoverCoruch_Turn_LToR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/A_CoverCoruch_Turn_RToL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Blendspaces/BS_Cover.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Blendspaces/BS_Cover.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Mixamo/Animations/A_CoverCoruch_Enter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mixamo/Animations/A_CoverCoruch_Enter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Mixamo/Animations/A_CoverCrouch_Exit.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mixamo/Animations/A_CoverCrouch_Exit.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Mixamo/Animations/A_Cover_Enter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mixamo/Animations/A_Cover_Enter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Mixamo/Animations/A_Cover_Exit.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mixamo/Animations/A_Cover_Exit.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/CharacterCoverComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/Cover.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/Cover.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +147,8 @@
       <workItem from="1677134707683" duration="242000" />
       <workItem from="1677145467229" duration="3400000" />
       <workItem from="1677239755028" duration="689000" />
+      <workItem from="1677338458382" duration="3444000" />
+      <workItem from="1677376913664" duration="800000" />
     </task>
     <servers />
   </component>
