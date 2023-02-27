@@ -72,45 +72,45 @@ void ARealisticMovementCharacter::BeginPlay()
 void ARealisticMovementCharacter::StartJump_Implementation()
 {
 	Jump();
-	CharacterState = ECharacterState::JUMP;
+	SetCharacterState(ECharacterState::JUMP);
 }
 
 void ARealisticMovementCharacter::StopJump_Implementation()
 {
 	StopJumping();
-	// CharacterState = ECharacterState::WALK;
+	//SetCharacterState(ECharacterState::WALK);
 }
 
 void ARealisticMovementCharacter::StartCrouch_Implementation()
 {
 	Crouch();
-	CharacterState = ECharacterState::CROUCH;
+	SetCharacterState(ECharacterState::CROUCH);
 }
 
 void ARealisticMovementCharacter::StopCrouch_Implementation()
 {
 	UnCrouch();
-	CharacterState = ECharacterState::WALK;
+	SetCharacterState(ECharacterState::WALK);
 }
 
 void ARealisticMovementCharacter::StartCover_Implementation()
 {
-	CharacterState = ECharacterState::COVER;
+	SetCharacterState(ECharacterState::COVER);
 }
 
 void ARealisticMovementCharacter::StopCover_Implementation()
 {
-	CharacterState = ECharacterState::WALK;
+	SetCharacterState(ECharacterState::WALK);
 }
 
 void ARealisticMovementCharacter::StartRun_Implementation()
 {
-	CharacterState = ECharacterState::RUN;
+	SetCharacterState(ECharacterState::RUN);
 }
 
 void ARealisticMovementCharacter::StopRun_Implementation()
 {
-	CharacterState = ECharacterState::WALK;
+	SetCharacterState(ECharacterState::WALK);
 }
 
 void ARealisticMovementCharacter::HandleMoveInput_Implementation(const FInputActionValue& Value)
@@ -121,6 +121,16 @@ void ARealisticMovementCharacter::HandleMoveInput_Implementation(const FInputAct
 void ARealisticMovementCharacter::HandleLookInput_Implementation(const FInputActionValue& Value)
 {
 	Look(Value);
+}
+
+void ARealisticMovementCharacter::SetCharacterState_Implementation(ECharacterState NewState)
+{
+	if(CharacterState != NewState)
+	{
+		LastCharacterState = CharacterState;
+		CharacterState = NewState;
+		OnCharacterStateChanged(LastCharacterState, CharacterState);
+	}
 }
 
 void ARealisticMovementCharacter::Move(const FInputActionValue& Value)

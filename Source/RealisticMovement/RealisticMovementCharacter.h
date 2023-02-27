@@ -36,6 +36,9 @@ class ARealisticMovementCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Character, meta = (AllowPrivateAccess = "true"))
 	ECharacterState CharacterState;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Character, meta = (AllowPrivateAccess = "true"))
+	ECharacterState LastCharacterState;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Input, meta = (AllowPrivateAccess = "true"))
 	FVector2D MoveInput;
 
@@ -77,6 +80,12 @@ protected:
 	
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category="Character Actions")
 	void HandleLookInput(const FInputActionValue& Value);
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category="Character State")
+	void SetCharacterState(ECharacterState NewState);
+
+	UFUNCTION(BlueprintImplementableEvent, Category="Character State")
+	void OnCharacterStateChanged(ECharacterState LastState, ECharacterState NewState);
 	
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
@@ -96,6 +105,8 @@ public:
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
 	FORCEINLINE ECharacterState GetCharacterState() const { return CharacterState; }
+
+	FORCEINLINE ECharacterState GetLastCharacterState() const { return LastCharacterState; }
 	
 	FORCEINLINE FVector2D GetMoveInput() const { return MoveInput; }
 	
