@@ -8,10 +8,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/ABP_Katiusza.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/ABP_Katiusza.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/InPlace/A_JumpFwd1_Start.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/InPlace/A_JumpFwd1_Start.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/InPlace/JumpFwd_Both_Land.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/InPlace/JumpFwd_Both_Land.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/InPlace/JumpPlatformerStart.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/InPlace/JumpPlatformerStart.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpFwd_Both_Land.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpFwd_Both_Land.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpFwd_Both_Start.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpFwd_Both_Start.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpPlatformerStart.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpPlatformerStart.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Materials/M_AssetPlatform.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_AssetPlatform.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/UG/CK6NDUIQRMELBKGLMYI2HB.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/UG/CK6NDUIQRMELBKGLMYI2HB.uasset" afterDir="false" />
@@ -138,6 +142,7 @@
       <workItem from="1677376913664" duration="864000" />
       <workItem from="1677388175672" duration="1478000" />
       <workItem from="1677426610493" duration="1374000" />
+      <workItem from="1677459961146" duration="799000" />
     </task>
     <servers />
   </component>
