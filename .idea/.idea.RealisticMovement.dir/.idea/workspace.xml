@@ -4,12 +4,7 @@
     <projectFile>RealisticMovement.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Audio/Collapse01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Collapse01.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/RealisticMovement/RealisticMovementCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RealisticMovement/RealisticMovementCharacter.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +126,7 @@
       <workItem from="1677426610493" duration="1374000" />
       <workItem from="1677459961146" duration="799000" />
       <workItem from="1677602327341" duration="679000" />
-      <workItem from="1677603619963" duration="879000" />
+      <workItem from="1677603619963" duration="1012000" />
     </task>
     <servers />
   </component>
