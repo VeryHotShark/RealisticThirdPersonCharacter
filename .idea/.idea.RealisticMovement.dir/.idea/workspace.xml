@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/ABP_Katiusza.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/ABP_Katiusza.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpFwd1_Land.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpFwd1_Land.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpFwd_Both_Land.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/JumpFwd_Both_Land.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/Land2WalkFwd.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/RootMotion/Land2WalkFwd.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +138,8 @@
       <workItem from="1677603619963" duration="1012000" />
       <workItem from="1677651969367" duration="401000" />
       <workItem from="1677654615443" duration="3056000" />
-      <workItem from="1677808150800" duration="3331000" />
+      <workItem from="1677808150800" duration="3632000" />
+      <workItem from="1677824537809" duration="386000" />
     </task>
     <servers />
   </component>
