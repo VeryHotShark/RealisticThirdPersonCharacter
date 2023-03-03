@@ -35,10 +35,11 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 	ACover* FindClosestCover();
 
+	// Can be used in Tick for UI to Display Interact Message
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	ACover* UpdateClosestCover();
 public:
 	virtual void InitializeComponent() override;
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
 	
 	UPROPERTY(BlueprintAssignable, BlueprintCallable)
 	FOnCoverFound OnClosestCoverFound;

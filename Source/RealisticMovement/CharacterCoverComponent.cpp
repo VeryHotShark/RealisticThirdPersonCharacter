@@ -11,16 +11,8 @@ UCharacterCoverComponent::UCharacterCoverComponent()
 	bWantsInitializeComponent = true;
 }
 
-void UCharacterCoverComponent::InitializeComponent()
+ACover* UCharacterCoverComponent::UpdateClosestCover_Implementation()
 {
-	Super::InitializeComponent();
-	Character = Cast<ACharacter>(GetOwner());
-}
-
-void UCharacterCoverComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
 	ACover* PotentialCover = FindClosestCover();
 
 	if(ClosestCover != PotentialCover)
@@ -31,7 +23,15 @@ void UCharacterCoverComponent::TickComponent(float DeltaTime, ELevelTick TickTyp
 			OnClosestCoverFound.Broadcast(ClosestCover);
 		else
 			OnClosestCoverLost.Broadcast();
-	} 
+	}
+
+	return PotentialCover;
+}
+
+void UCharacterCoverComponent::InitializeComponent()
+{
+	Super::InitializeComponent();
+	Character = Cast<ACharacter>(GetOwner());
 }
 
 void UCharacterCoverComponent::SetCoverTransitionState_Implementation(bool State)
