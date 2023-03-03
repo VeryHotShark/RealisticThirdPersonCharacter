@@ -4,16 +4,7 @@
     <projectFile>RealisticMovement.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Contraptions/BP_Cover.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Contraptions/BP_Cover.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_CoverCrouch_Enter.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_CoverCrouch_Exit.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_Cover_Enter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_Cover_Enter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_Cover_Exit.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Katiusza/Animations/Retargeted/AM_Cover_Exit.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/15/W45KM6JESPBUN2AIV789UL.uasset" afterDir="false" />
-    </list>
+    <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +130,7 @@
       <workItem from="1677651969367" duration="401000" />
       <workItem from="1677654615443" duration="3056000" />
       <workItem from="1677808150800" duration="3632000" />
-      <workItem from="1677824537809" duration="2171000" />
+      <workItem from="1677824537809" duration="2765000" />
     </task>
     <servers />
   </component>
