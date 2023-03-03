@@ -4,7 +4,9 @@
     <projectFile>RealisticMovement.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="" />
+    <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +132,7 @@
       <workItem from="1677651969367" duration="401000" />
       <workItem from="1677654615443" duration="3056000" />
       <workItem from="1677808150800" duration="3632000" />
-      <workItem from="1677824537809" duration="2765000" />
+      <workItem from="1677824537809" duration="3360000" />
     </task>
     <servers />
   </component>
