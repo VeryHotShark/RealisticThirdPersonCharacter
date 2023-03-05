@@ -5,10 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa82190-d479-42bb-804f-30b327575b8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RealisticMovement.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/1X/5XNKTUP3414K5OM2KYC005.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/HS/37L0R6MM13W2A4F7BSV936.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/QS/PS7W3IL9JNJFCUC9WNMZ80.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/DK/JO6JJX6CZPBB0AP0PNX7CV.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/PC/FOMGUF6YRXKN2E0F19GU1P.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/KS/0L8LM30KO1CYZNQA0OXXF0.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/LR/AAAML72LPUEOWNR07EIPQF.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/E7/MXMF0LLSVCG5PT157B5GY0.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/JS/1512IXKK6B17LBALBBVL6V.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/OF/C96PRS53QTPY18A30F2NQ4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/RD/365GVNYAVTBJ28P46ASKBZ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/3L/XAZAICOMOWPX3JMUBHJQOB.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/4U/44VM650Z64AH6PKAA3XM1A.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YX/PD7ZITRJY0UYBYI1ZVV9PU.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/JS/DK10CNYCJ3CE2LVYSFV8NW.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/LW/W532DQT7CK4SWD25PYD76U.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/HS/DBIKV4TQKHKLL3YOPPHOHL.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/LM/YPXB00XYC0FZGDJ2TM9G0U.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/73/3MIWMPK4I67JACGL3N201Z.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/SP/GGOL4DRE9MGRFICD3SKC55.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Components/BP_CharacterCoverComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Audio/Collapse01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Audio/Collapse01.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_RealisticThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/CI/KST702KSCRZWYV56G3VJBD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/CI/KST702KSCRZWYV56G3VJBD.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/MO/72II2GSLK9VS0ULW9SACWH.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/MO/72II2GSLK9VS0ULW9SACWH.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/0I/VIQQWOEJKSKV1EK1XGX3EY.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/0I/VIQQWOEJKSKV1EK1XGX3EY.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +161,7 @@
       <workItem from="1677808150800" duration="3632000" />
       <workItem from="1677824537809" duration="3360000" />
       <workItem from="1677839761299" duration="594000" />
+      <workItem from="1677980174096" duration="594000" />
     </task>
     <servers />
   </component>
