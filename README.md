@@ -71,7 +71,7 @@ The character can turn towards the camera during idle when the difference betwee
 
 The turn is achieved using curves generated in the animation. I created a simple Blueprint Animation Modifier that extracts the rotation from the animation and maps it to a range of 0-1. This range is then used to interpolate the character by "X" degrees with minimal foot sliding. It is most noticeable when the character turns while crouching because animations were well-prepared for that.
 
-For turns while standing, I had to download animations from Mixamo and retarget them to the character, which unfortunately stands out from the rest and includes errors/sliding (also due to the imperfections of my retargeter). However, I decided to keep it to demonstrate that the system works with properly prepared animations (crouching). However, you can disable it and see the result without turning in place by toggling the TurnInPlace boolean in ABP_Katiuszy.
+For turns while standing, I had to download animations from Mixamo and retarget them to the character, which unfortunately stands out from the rest and includes errors/sliding (also due to the imperfections of my retargeter). However, I decided to keep it to demonstrate that the system works with properly prepared animations (crouching). However, you can disable it and see the result without turning in place by toggling the TurnInPlace boolean in Animation Blueprint.
 
 **Cover System:**
 
@@ -101,4 +101,4 @@ I also added cloth simulation to the skirt for decorative purposes. It behaves s
 
 **Post-Mortem:**
 
-In conclusion, I see that there are still many things that could be refined or fixed, and there are occasional popping transitions, especially when rapidly changing input directions. However, I am quite satisfied with the result and would gladly listen to feedback :)
+In conclusion, I see that there are still many things that could be refined or fixed, and there are occasional popping transitions, especially when rapidly changing input directions. However, I am quite satisfied with the result. :)
